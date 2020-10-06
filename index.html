@@ -2,58 +2,66 @@
 <html lang="en">
 <head>
     <title>Matthew Wei - Final - Web 1.0</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
     <body>
 
-        <section id="student-info">
-            <h1>Matthew Wei</h1>
-            <p>My favorite color is blue and I wear Adidas</p>
-        </section>
+        <div class="parent">
+            <div class="left-column">
+                <section id="student-info">
+                    <h1>Matthew Wei</h1>
+                    <p>My favorite color is blue and I wear Adidas</p>
+                </section>
 
-        <section id="data-input">
-            <h1>Font Styler</h1>
-            <form>
-                <label>
-                    Font Size
-                    <input id="input-size" type="number">
-                </label>
-                <label>
-                    Font Family
-                    <select id="select-font">
-                        <option value="helvetica">Helvetica</option>
-                        <option value="arial">Arial</option>
-                        <option value="times new roman">Times New Roman</option>
-                        <option value="georgia">Georgia</option>
-                    </select>
-                </label>
-                <label>
-                    Font Color
-                    <input id="input-color" type="color" value="#000">
-                </label>
-                <label>
-                    Background Color
-                    <input id="input-bg-color" type="color" value="#fff">
-                </label>
-                <label>
-                    Enter Text
-                    <textarea id="enter-text">Some Text</textarea>
-                </label>
-            </form>
-        </section>
+                <section id="data-input">
+                    <h1>Font Styler</h1>
+                    <form>
+                        <label>
+                            Font Size
+                            <input id="input-size" type="number">
+                        </label>
+                        <label>
+                            Font Family
+                            <select id="select-font">
+                                <option value="helvetica">Helvetica</option>
+                                <option value="arial">Arial</option>
+                                <option value="times new roman">Times New Roman</option>
+                                <option value="georgia">Georgia</option>
+                            </select>
+                        </label>
+                        <label>
+                            Font Color
+                            <input id="input-color" type="color" value="#000">
+                        </label>
+                        <label>
+                            Background Color
+                            <input id="input-bg-color" type="color" value="#fff">
+                        </label>
+                        <label>
+                            Enter Text
+                            <textarea id="enter-text">Some Text</textarea>
+                        </label>
+                    </form>
+                </section>
+            </div>
 
-        <section id="headline-display">
-            <h1 id="display">Some Text</h1>
-        </section>
+            <div id="right-column">
+                <section id="headline-display">
+                    <h1 id="display">Some Text</h1>
+                </section>
 
-        <section id="data-output">
-            <h1>Font Settings</h1>
-            <pre><code>.headline {
-                font-size: <span id="show-size">16</span>px;
-                font-family: <span id="show-font">Times</span>;
-                color: <span id="show-color">#000</span>;
-                background-color: <span id="show-bg-color">#fff</span>;
-            }</code></pre>
-        </section>
+                <section id="data-output">
+                    <h1>Font Settings</h1>
+                    <div>
+                    <pre><code>.headline {
+    font-size: <span id="show-size">16</span>px;
+    font-family: <span id="show-font">Times</span>;
+    color: <span id="show-color">#000</span>;
+    background-color: <span id="show-bg-color">#fff</span>;
+}</code></pre>
+                </section>
+            </div>
+        </div>
 
     </body>
 </html>
