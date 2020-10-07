@@ -1,17 +1,12 @@
 const display = document.querySelector('#display')
-
 const inputSize = document.querySelector('#input-size')
 const showSize = document.querySelector('#show-size')
-
 const inputFont = document.querySelector('#select-font')
 const showFont = document.querySelector('#show-font')
-
 const inputColor = document.querySelector('#input-color')
 const showColor = document.querySelector('#show-color')
-
 const inputBackgroundColor = document.querySelector('#input-bg-color')
 const showBackgroundColor = document.querySelector('#show-bg-color')
-
 const inputText = document.querySelector('#enter-text')
 
 inputSize.addEventListener('input', handleInput)
